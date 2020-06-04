@@ -1,0 +1,27 @@
+{
+  "name": "stecsystem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashinlaurel/stecsystems.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashinlaurel/stecsystems/issues"
+  },
+  "homepage": "https://github.com/ashinlaurel/stecsystems#readme",
+  "dependencies": {
+    "concurrently": "^5.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
