@@ -127,7 +127,7 @@ export default function Order() {
             </button>
           </form>
         </div>
-        {/* Check */}
+        {/* Checking */}
       </div>
     </div>
   );
